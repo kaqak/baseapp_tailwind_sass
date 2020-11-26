@@ -1,0 +1,23 @@
+//ABSTRACTS IMPORT
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+// BASE IMPORT
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+//COMPONENTS IMPORT
+@import "components/buttons";
+@import "components/composition";
+@import "components/feature-box";
+//LAYOUT IMPORT
+@import "layout/header";
+@import "layout/grid";
+// PAGES IMPORT
+@import "pages/home";
+//THEMES IMPORT
+//VENDOR IMPORT
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
